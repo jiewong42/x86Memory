@@ -3,9 +3,9 @@ X86Memory 是一款记录你电脑操作的python程序
 
 X86Memory是一款参考了[rewind](https://www.rewind.ai/)、[Memento](https://github.com/apirrone/Memento)、[Windrecorder](https://github.com/yuka-friends/Windrecorder)的软件。
 ## 初衷与历程
-在一开始，我想分析在电脑上花费的时间都用到了哪里，我试过好多软件，都不满意，遂止。
-当 rewind 出来的时候，我想体验，但它只提供了mac版本。
-2024年3月初的时候，我已经接触了[bigdl-llm](https://marketing.intel.cn/bigdl-llm)很长时间了，我又注意到 Memento ，我想为他加上本地llm的功能，但我不是很能理解这个仓库。我又看到了 Memento ，我对它的原理很喜欢，但它是在ubuntu上构建的，windows上有一些兼容问题（这些问题解决了，但我败在了openai密钥上）。我于是想参照它的功能实现一个windows版本的，
+在一开始，我想分析在电脑上花费的时间都用到了哪里，我试过好多软件，都不满意，遂止。  
+当 rewind 出来的时候，我想体验，但它只提供了mac版本。  
+2024年3月初的时候，我已经接触了[bigdl-llm](https://marketing.intel.cn/bigdl-llm)很长时间了，我又注意到 Memento ，我想为他加上本地llm的功能，但我不是很能理解这个仓库。我又看到了 Memento ，我对它的原理很喜欢，但它是在ubuntu上构建的，windows上有一些兼容问题（这些问题解决了，但我败在了openai密钥上）。我于是想参照它的功能实现一个windows版本的。  
 工作原理:
 - 该应用程序每 2 秒截取一次屏幕截图
 - 它将屏幕截图编译成 h264 视频片段以提高存储效率
