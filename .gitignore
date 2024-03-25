@@ -18,7 +18,6 @@
 *.lock
 *.log
 *.txt
-*.md
 *.zip
 *.tar
 *.tar.gz
