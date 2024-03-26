@@ -10,11 +10,11 @@ class ScreenCapturer:
     截屏类，使用mss库进行截图并保存为以当前时间命名的文件。
     """
 
-    def __init__(self, save_folder='../png', interval=2):
+    def __init__(self, save_folder='./png', interval=2):
         """
         类的初始化方法。
 
-        :param save_folder: 截图保存的文件夹，默认为'../png'
+        :param save_folder: 截图保存的文件夹，默认为'./png'
         :param interval: 截屏时间间隔，默认为2秒
         """
         self.save_folder = save_folder
@@ -53,5 +53,5 @@ class ScreenCapturer:
 
 # 主程序部分
 if __name__ == '__main__':
-    capturer = ScreenCapturer(interval=1)
+    capturer = ScreenCapturer()
     capturer.start_capture()

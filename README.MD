@@ -34,7 +34,7 @@ X86Memory是一款参考了[rewind](https://www.rewind.ai/)、[Memento](https://
 
 ......
 
-到今天3月25日，我还是想把这个项目完成，我上传两个基础的文件，截图类ScreenCapturer和 窗口名称类 WindowTracker，重新开发。
+到今天3月25日，我还是想把这个项目完成，我上传两个基础的文件，截图类 ScreenCapturer 和 窗口名称类 WindowTracker，重新开发。
 
 
 ## 使用方法
