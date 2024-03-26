@@ -43,9 +43,10 @@ pip install pygetwindow
 pip install mss
 ```
 ## 当前进度
+
+2023.3.26:新增 WindowTracker2 类，只有在窗口标题发生变化时，才会向数据库写入新的记录。  
+2023.3.25:封装了一个 ScreenCapturer 类，提供了调用的方法，可以截屏，并保存到文件夹中。  
 2023.3.25:封装了一个 WindowTracker 类，提供了可调用的方法，可以获取当前窗口的名字，并存到sqlite数据库中。
-2023.3.25:封装了一个 ScreenCapturer 类，提供了调用的方法，可以截屏，并保存到文件夹中.
-2023.3.26:新增 WindowTracker2 类，只有在窗口标题发生变化时，才会向数据库写入新的记录。
 ## 开发文档
 
 WindowTracker.py：
