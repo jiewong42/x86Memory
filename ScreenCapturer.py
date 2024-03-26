@@ -38,7 +38,7 @@ class ScreenCapturer:
             # 截屏并保存
             sct_img = sct.grab(monitor)
             mss.tools.to_png(sct_img.rgb, sct_img.size, output=filename)
-            print(f'截图已保存：{filename}')
+            #print(f'截图已保存：{filename}')
 
     def start_capture(self):
         """
