@@ -21,11 +21,11 @@ class WindowTracker:
            a = a or ''
            b = re.search(self.pattern, a).group().strip()
  
-           if b != self.last_window_title:
+           if a != self.last_window_title:
                current_timestamp = time.strftime("%Y-%m-%dT%H-%M-%S")
                self.c.execute("INSERT INTO window_activity VALUES (?, ?, ?)", (current_timestamp, b, a))
                self.conn.commit()
-               self.last_window_title = b
+               self.last_window_title = a
  
            time.sleep(2)
  
